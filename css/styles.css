@@ -170,7 +170,7 @@ main {
 }
 .footer__list {
   list-style: none;
-  padding: 15px;
+  padding: 0;
   margin: 0;
 }
 .footer__link {
@@ -179,7 +179,11 @@ main {
   margin-right: 10px;
 }
 .footer__list__list {
-  margin-bottom: 15px;
+  margin: 8px;
+}
+.footer__icon {
+  width: 1.2rem;
+  margin-right: 0.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

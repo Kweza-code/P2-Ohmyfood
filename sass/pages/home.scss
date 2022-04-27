@@ -189,7 +189,7 @@ main {
 
     &__list {
         list-style: none;
-        padding: 15px;
+        padding: 0;
         margin: 0;
     }
 
@@ -200,8 +200,14 @@ main {
     }
 
     &__list__list {
-        margin-bottom: 15px;
+        margin: 8px;
     }
+
+    &__icon {
+        width: 1.2rem;
+        margin-right: 0.5rem;
+    }
+    
 }
 
 
