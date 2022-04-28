@@ -59,3 +59,113 @@
         background-color: black;
     }
 }
+
+.menu {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 1rem;
+
+    &__title {
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 0.5rem;
+        font-weight: normal;
+    }
+}
+
+.menuItem {
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    border-radius: 0.75rem;
+    margin: 1rem 0;
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    max-width: 100%;
+
+    &__header {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        flex: 1;
+    }
+
+    &__title {
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    &__description {
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    &__price {
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-left: 0.5rem;
+    }
+
+    &__accept {
+        margin: -1rem -5rem -1rem 1rem;
+        width: 4rem;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        transition-duration: 0.5s;
+
+        &__icon {
+            height: 1.6rem;
+            width: 1.6rem;
+            background-color: white;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius: 100px;
+        }
+    }
+}
+
+.Btn {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.commandBtn {
+    @include btnpink
+}
+
+.card__footer {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    color: black;
+    position: relative;
+
+    &__content {
+        flex: 1;
+    }
+
+    &__title {
+        margin: 0 0 4px;
+        text-decoration: none;
+    }
+
+    &__subtitle {
+        margin: 0;
+        list-style-type: none;
+    }
+    
+    &__btn {
+        color: black;
+    }
+}
