@@ -1,17 +1,6 @@
 
-.header {
-    box-shadow: 0 0  8px rgb(0 0 0 / 25%);
-    text-align: center;
-    padding: 16px;
-
-}
-
 #header__logo img {
     width: 200px;
-}
-
-main {
-    display: block;
 }
 
 .local {
@@ -171,44 +160,10 @@ main {
     }
 }
 
-.footer .container {
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-}
+ 
 
-.footer {
-    background-color: #353535;
 
-    &__logo {
-        color: #fff;
-        font-family: Shrikhand,"cursive";
-        font-size: 19.2px;
-        margin: 0 0 19px 15px;
-    }
 
-    &__list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    &__link {
-        color: #fff;
-        text-decoration: none;
-        margin-right: 10px;
-    }
-
-    &__list__list {
-        margin: 8px;
-    }
-
-    &__icon {
-        width: 1.2rem;
-        margin-right: 0.5rem;
-    }
-    
-}
 
 
 

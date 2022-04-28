@@ -1,19 +1,36 @@
+.footer {
+    background-color: #353535;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
 
-@mixin footer__logo {
-    color: #fff;
-    font-family: Shrikhand,"cursive";
-    font-size: 1.2rem;
-    margin: 0 0 1rem;
-}
 
-@mixin footer__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+    &__logo {
+        color: #fff;
+        font-family: Shrikhand,"cursive";
+        font-size: 19.2px;
+        margin: 0 0 19px 15px;
+    }
 
-@mixin footer__link {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    &__list__list {
+        margin: 8px;
+    }
+
+    &__icon {
+        width: 1.2rem;
+        margin-right: 0.5rem;
+    }
+    
 }
