@@ -47,7 +47,7 @@ main {
   margin: 8px;
 }
 .footer__icon {
-  width: 1.2rem;
+  width: 19.2px;
   margin-right: 0.5rem;
 }
 
@@ -120,15 +120,15 @@ main {
   counter-increment: compteListe 1;
   content: counter(compteListe) " ";
   background: #9356dc;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 24px;
+  width: 24px;
   border-radius: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   position: absolute;
-  left: -0.75rem;
+  left: 12px;
 }
 
 .working__link i {
@@ -192,7 +192,7 @@ main {
 
 .heroImg {
   max-width: 100%;
-  max-height: 32rem;
+  max-height: 512px;
   width: 100%;
   object-fit: cover;
 }
@@ -203,26 +203,26 @@ main {
 
 .restaurantContainer__arrow {
   position: absolute;
-  left: 2rem;
-  height: 2rem;
-  width: 2rem;
+  left: 32px;
+  height: 32px;
+  width: 32px;
   top: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 19.2px;
   color: black;
 }
 
 .container--menu {
-  margin-top: -4rem;
-  border-radius: 2rem 2rem 0 0;
+  margin-top: -64px;
+  border-radius: 32px 32px 0 0;
   background-color: #f6f6f6;
   z-index: 1;
   position: relative;
 }
 .container--menu__header {
-  padding: 1rem 2rem 0 1rem;
+  padding: 16px 32px 0 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -231,8 +231,8 @@ main {
   font-family: "Shrikhand", "cursive";
 }
 .container--menu_btn {
-  height: 2rem;
-  width: 2rem;
+  height: 32px;
+  width: 32px;
   background-color: transparent;
   border: transparent 0px solid;
   padding: 0;
@@ -247,22 +247,22 @@ main {
 .menu {
   max-width: 100%;
   overflow: hidden;
-  padding: 0 1rem;
+  padding: 0 16px;
 }
 .menu__title {
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 0.5rem;
+  padding-bottom: 8px;
   font-weight: normal;
 }
 
 .menuItem {
   background-color: white;
-  padding: 1rem;
+  padding: 16px;
   display: flex;
-  border-radius: 0.75rem;
-  margin: 1rem 0;
-  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: 16px 0;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   cursor: pointer;
   max-width: 100%;
@@ -290,19 +290,19 @@ main {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding-left: 0.5rem;
+  padding-left: 8px;
 }
 .menuItem__accept {
-  margin: -1rem -5rem -1rem 1rem;
-  width: 4rem;
+  margin: -16px -80px -16px 16px;
+  width: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-duration: 0.5s;
+
 }
 .menuItem__accept__icon {
-  height: 1.6rem;
-  width: 1.6rem;
+  height: 25.6px;
+  width: 25.6px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -314,7 +314,7 @@ main {
   display: flex;
   text-decoration: none;
   justify-content: center;
-  padding: 3rem 0;
+  padding: 48px 0;
 }
 
 .commandBtn {
