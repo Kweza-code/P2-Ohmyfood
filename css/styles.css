@@ -43,7 +43,7 @@ main {
   text-decoration: none;
   margin-right: 10px;
 }
-.footer__list__list {
+.footer__list__item {
   margin: 8px;
 }
 .footer__icon {
