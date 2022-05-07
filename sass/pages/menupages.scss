@@ -13,14 +13,13 @@
  .restaurantContainer__arrow
  {
     position: absolute;
-    left: 2rem;
-    height: 2rem;
+    left: 33px;
+    height: 20px;
     width: 2rem;
-    top: 50%;
+    top: 22px;
     display:flex;
     align-items:center;
     justify-content:center;
-    transform: translateY(-50%);
     font-size: 1.2rem;
     color: black;
  }
