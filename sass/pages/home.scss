@@ -77,6 +77,10 @@
         display: flex;
         position: relative;
         align-items: baseline;
+
+        &:hover {
+            background-color: #f2ecfe;
+        }
     }
 
     &__link:before{
@@ -94,7 +98,7 @@
         left: -0.75rem;
         
     }
- 
+
 }
 
 .working__link i {

@@ -81,8 +81,9 @@
     margin: 1rem 0;
     box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    cursor: pointer;
     max-width: 100%;
+    cursor: pointer;
+   
 
     &__header {
         white-space: nowrap;
@@ -129,9 +130,21 @@
             align-items:center;
             justify-content:center;
             border-radius: 100px;
+            transform: rotate(180deg);
+            transition-duration: 0.5s;
         }
     }
+
+    &:hover &__accept {
+        margin-right: -1rem;
+    }
+
+    &:hover &__iccon {
+        transform: rotate(0);
+    }
 }
+
+
 
 .Btn {
     display: flex;
