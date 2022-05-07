@@ -9,11 +9,15 @@
     padding: 20px 16px;
     background-color: #f3f3f3;
     font-size: 19.2px;
-    position: relative;
 
-     i {
-       margin-right: 15px
-    }
+
+      input {
+        font-weight: 700;
+        border: #f3f3f3;
+        background-color: #f3f3f3;
+        font-size: 20px;
+        text-align: center;
+      }
 
     &__text {
         font-weight: 700;
