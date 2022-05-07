@@ -192,6 +192,9 @@ main {
 .card__footer__btn {
   color: black;
 }
+.card__footer .card__btn i {
+  margin-left: 200px;
+}
 
 .heroImg {
   max-width: 100%;
