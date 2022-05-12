@@ -68,8 +68,13 @@
         position: relative;
         padding-bottom: 8px;
         font-weight: normal;
-        width: 35px;
+    }
+
+    &__title:after {
+        display: block;
+        content: "";
         border-bottom: 2px solid green;
+        width: 45px;
     }
 }
 
