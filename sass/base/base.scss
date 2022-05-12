@@ -36,3 +36,19 @@ main {
       -webkit-transform: rotate(360deg);
     }
   }
+
+  @keyframes loader {
+    100% {
+      opacity: 0;
+      z-index: -10;
+    }
+  } 
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

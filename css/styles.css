@@ -30,6 +30,20 @@ main {
     -webkit-transform: rotate(360deg);
   }
 }
+@keyframes loader {
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .header {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -69,6 +83,28 @@ main {
 
 #header__logo img {
   width: 200px;
+}
+
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(238, 217, 217, 0.89);
+  animation: loader 0.01s;
+  animation-delay: 1.75s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader__item {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  animation: rotation 2s infinite linear;
 }
 
 .local {

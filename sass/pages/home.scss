@@ -3,6 +3,29 @@
     width: 200px;
 }
 
+.loader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(238, 217, 217, 0.89);
+    animation: loader 0.01s;
+    animation-delay: 1.75s;
+    animation-fill-mode: both;
+    z-index: 10000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    &__item {
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        animation: rotation 2s infinite linear;
+    }
+    }
+
 .local {
     display: flex;
     justify-content: center;
