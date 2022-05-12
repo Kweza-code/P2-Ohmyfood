@@ -113,6 +113,10 @@ main {
   cursor: pointer;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
+.reservation__btn:hover {
+  background-color: white;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+}
 
 .working {
   padding: 32px 16px;
@@ -379,6 +383,11 @@ main {
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   cursor: pointer;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.commandBtn:hover {
+  background-color: white;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
 
 .card__footer {
