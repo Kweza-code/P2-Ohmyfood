@@ -65,7 +65,6 @@
         margin: 0;
         padding: 0;
         list-style: none;
-       
     }
 
     &__link {
@@ -77,6 +76,7 @@
         display: flex;
         position: relative;
         align-items: baseline;
+        counter-increment: compteListe 1;
 
         &:hover {
             background-color: #f2ecfe;
@@ -85,7 +85,6 @@
     }
 
     &__link:before{
-        counter-increment: compteListe 1;
         content: counter(compteListe) " ";
         background: #9356dc;
         height: 1.5rem;
@@ -169,10 +168,6 @@
         color: black;
         
         
-    }
-
-    .card__btn i {
-        margin-left: 200px;
     }
 }
 

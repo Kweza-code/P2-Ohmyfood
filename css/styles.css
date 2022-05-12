@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: "Shrikhand", cursive;
   scroll-behavior: smooth;
 }
 
@@ -134,13 +134,13 @@ main {
   display: flex;
   position: relative;
   align-items: baseline;
+  counter-increment: compteListe 1;
 }
 .working__link:hover {
   background-color: #f2ecfe;
   cursor: pointer;
 }
 .working__link:before {
-  counter-increment: compteListe 1;
   content: counter(compteListe) " ";
   background: #9356dc;
   height: 1.5rem;
@@ -212,9 +212,6 @@ main {
 }
 .card__footer__btn {
   color: black;
-}
-.card__footer .card__btn i {
-  margin-left: 200px;
 }
 
 .heroImg {
