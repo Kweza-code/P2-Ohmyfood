@@ -73,7 +73,7 @@
     &__title:after {
         display: block;
         content: "";
-        border-bottom: 2px solid green;
+        border-bottom: 2px solid #99e2d0;
         width: 45px;
     }
 }
@@ -130,7 +130,7 @@
         align-items:center;
         justify-content:center;
         transition-duration: 0.5s;
-        background-color: green;
+        background-color: #99e2d0;
 
         &__Icon {
             height: 25.6px;
@@ -142,7 +142,7 @@
             border-radius: 100px;
             transform: rotate(-180deg);
             transition-duration: 0.5s;
-            color: green;
+            color: #99e2d0;
             background-color: white;
             padding: 5px;
             border-radius: 20px;
