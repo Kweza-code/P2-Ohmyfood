@@ -91,7 +91,7 @@ main {
   width: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(238, 217, 217, 0.89);
+  background-color: rgb(255, 255, 255);
   animation: loader 0.01s;
   animation-delay: 1.75s;
   animation-fill-mode: both;
