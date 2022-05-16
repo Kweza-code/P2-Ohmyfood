@@ -16,10 +16,10 @@ main {
 
 @keyframes itemAppear {
   0% {
-    transform: scale(0);
+    opacity: 0;
   }
   100% {
-    transform: scale(1);
+    opacity: 1;
   }
 }
 @keyframes rotate {
@@ -104,7 +104,7 @@ main {
   height: 100px;
   width: 100px;
   background-color: green;
-  animation: rotation 2s infinite linear;
+  animation: rotation 2s;
 }
 
 .local {
@@ -333,10 +333,9 @@ main {
   margin: 16px 0;
   box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  max-width: 100%;
   cursor: pointer;
-  animation: itemAppear 0.6s;
-  animation-timing-function: cubic-bezier(0.1, 0.7, 1, 0.8);
+  animation: itemAppear 1s;
+  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
   animation-fill-mode: both;
   max-width: 100%;
 }
@@ -399,6 +398,42 @@ main {
 }
 .menuItem:hover .menuItem__accept {
   margin-right: -16px;
+}
+
+.menuAnimation {
+  animation-delay: 0.1s;
+}
+
+.menuAnimation-1 {
+  animation-delay: 0.2s;
+}
+
+.menuAnimation-2 {
+  animation-delay: 0.3s;
+}
+
+.menuAnimation-3 {
+  animation-delay: 0.4s;
+}
+
+.menuAnimation-4 {
+  animation-delay: 0.5s;
+}
+
+.menuAnimation-5 {
+  animation-delay: 0.6s;
+}
+
+.menuAnimation-6 {
+  animation-delay: 0.7s;
+}
+
+.menuAnimation-7 {
+  animation-delay: 0.8s;
+}
+
+.menuAnimation-8 {
+  animation-delay: 0.9s;
 }
 
 .Btn {

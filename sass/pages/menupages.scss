@@ -86,12 +86,13 @@
     margin: 16px 0;
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 100%;
     cursor: pointer;
-    animation: itemAppear .6s;
-    animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.8);
+    animation: itemAppear 1s;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
     animation-fill-mode: both;
     max-width: 100%;
+
+   
    
 
     &__header {
@@ -164,6 +165,45 @@
     }
 
 }
+
+.menuAnimation {
+    animation-delay: .1s;
+    
+}
+
+.menuAnimation-1 {
+    animation-delay: .2s;
+  
+}
+
+.menuAnimation-2 {
+    animation-delay: .3s;
+}
+
+.menuAnimation-3 {
+    animation-delay: .4s;
+}
+
+.menuAnimation-4 {
+    animation-delay: .5s;
+}
+
+.menuAnimation-5 {
+    animation-delay: .6s;
+}
+
+.menuAnimation-6 {
+    animation-delay: .7s;
+}
+
+.menuAnimation-7 {
+    animation-delay: .8s;
+}
+
+.menuAnimation-8 {
+    animation-delay: .9s;
+}
+
 
 
 
