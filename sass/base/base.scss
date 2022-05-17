@@ -1,7 +1,7 @@
      body {
     margin: 0;
-    font-family: 'Shrikhand', cursive;
     scroll-behavior: smooth;
+    font-family: Roboto, sans-serif;
 }
 
 main {
@@ -16,13 +16,15 @@ main {
 }
 
 
-@keyframes itemAppear {
+@keyframes itemOpacity {
     0% {
         opacity: 0;
+        transform: translateY(10px)
     }
 
     100% {
         opacity: 1;
+        transform: translateY(0)
     }
 }
 
@@ -38,6 +40,9 @@ main {
   }
 
   @keyframes loader {
+    80% {
+      opacity: 1;
+    }
     100% {
       opacity: 0;
       z-index: -10;

@@ -87,7 +87,7 @@
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     cursor: pointer;
-    animation: itemAppear 3s;
+    animation: itemOpacity 3s;
     animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
     animation-fill-mode: both;
     max-width: 100%;
@@ -149,6 +149,7 @@
             border-radius: 20px;
             transition: transform 500ms ease-in-out;
             animation: rotate .6s;
+            
         }
 
            &__validation {
@@ -157,51 +158,62 @@
             padding: 5px;
             border-radius: 20px;
            }
+
+           &__icon {
+            transform: rotate(180deg);
+            transition: transform 500ms;
+           }
  }
+
 
 
     &:hover &__accept {
         margin-right: -16px;
     }
 
+    &:hover &__icon {
+       transform: rotate(360deg);
+       transition: transform 500ms;
+    }
+
 }
 
 .menuAnimation {
-    animation-delay: 1s;
+    animation-delay: .1s;
     
 }
 
 .menuAnimation-1 {
-    animation-delay: 1.2s;
+    animation-delay: .2s;
   
 }
 
 .menuAnimation-2 {
-    animation-delay: 1.3s;
+    animation-delay: .3s;
 }
 
 .menuAnimation-3 {
-    animation-delay: 1.4s;
+    animation-delay: .4s;
 }
 
 .menuAnimation-4 {
-    animation-delay: 1.5s;
+    animation-delay: .5s;
 }
 
 .menuAnimation-5 {
-    animation-delay: 1.6s;
+    animation-delay: .6s;
 }
 
 .menuAnimation-6 {
-    animation-delay: 1.8s;
+    animation-delay: .8s;
 }
 
 .menuAnimation-7 {
-    animation-delay: 1.9s;
+    animation-delay: .9s;
 }
 
 .menuAnimation-8 {
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 

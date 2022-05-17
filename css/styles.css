@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: "Shrikhand", cursive;
   scroll-behavior: smooth;
+  font-family: Roboto, sans-serif;
 }
 
 main {
@@ -14,12 +14,14 @@ main {
   padding: 16px;
 }
 
-@keyframes itemAppear {
+@keyframes itemOpacity {
   0% {
     opacity: 0;
+    transform: translateY(10px);
   }
   100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 @keyframes rotate {
@@ -31,6 +33,9 @@ main {
   }
 }
 @keyframes loader {
+  80% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
     z-index: -10;
@@ -92,8 +97,7 @@ main {
   left: 0;
   top: 0;
   background-color: rgb(255, 255, 255);
-  animation: loader 0.01s;
-  animation-delay: 1.75s;
+  animation: loader 2s;
   animation-fill-mode: both;
   z-index: 10000;
   display: flex;
@@ -334,7 +338,7 @@ main {
   box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   cursor: pointer;
-  animation: itemAppear 3s;
+  animation: itemOpacity 3s;
   animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
   animation-fill-mode: both;
   max-width: 100%;
@@ -396,44 +400,52 @@ main {
   padding: 5px;
   border-radius: 20px;
 }
+.menuItem__accept__icon {
+  transform: rotate(180deg);
+  transition: transform 500ms;
+}
 .menuItem:hover .menuItem__accept {
   margin-right: -16px;
 }
+.menuItem:hover .menuItem__icon {
+  transform: rotate(360deg);
+  transition: transform 500ms;
+}
 
 .menuAnimation {
-  animation-delay: 1s;
+  animation-delay: 0.1s;
 }
 
 .menuAnimation-1 {
-  animation-delay: 1.2s;
+  animation-delay: 0.2s;
 }
 
 .menuAnimation-2 {
-  animation-delay: 1.3s;
+  animation-delay: 0.3s;
 }
 
 .menuAnimation-3 {
-  animation-delay: 1.4s;
+  animation-delay: 0.4s;
 }
 
 .menuAnimation-4 {
-  animation-delay: 1.5s;
+  animation-delay: 0.5s;
 }
 
 .menuAnimation-5 {
-  animation-delay: 1.6s;
+  animation-delay: 0.6s;
 }
 
 .menuAnimation-6 {
-  animation-delay: 1.8s;
+  animation-delay: 0.8s;
 }
 
 .menuAnimation-7 {
-  animation-delay: 1.9s;
+  animation-delay: 0.9s;
 }
 
 .menuAnimation-8 {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .Btn {
