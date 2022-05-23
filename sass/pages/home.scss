@@ -5,25 +5,59 @@
 
 .loader {
     position: fixed;
-    height: 100%;
     width: 100%;
-    left: 0;
-    top: 0;
-    background-color: rgb(255, 255, 255);
+    height: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     animation: loader 2s;
     animation-fill-mode: both;
     z-index: 10000;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+}
 
-    &__item {
-        height: 100px;
-        width: 100px;
-        background-color: green;
-        animation: rotation 2s;
-    }
-    }
+.lettre {
+    color: #484848;
+    font-size: 35px;
+    letter-spacing: 15px;
+    margin-bottom: 150px;
+    animation: flash 1.2s linear infinite;
+}
+
+.lettre:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.lettre:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.lettre:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.lettre:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.lettre:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.lettre:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.lettre:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.lettre:nth-child(8) {
+    animation-delay: 0.8s;
+}
+   
+
+    
 
 .local {
     display: flex;

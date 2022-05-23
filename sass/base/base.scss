@@ -29,16 +29,6 @@ main {
 }
 
 
-
-@keyframes rotate {
-    from{
-      -webkit-transform: rotate(0deg);
-    }
-    to{
-      -webkit-transform: rotate(360deg);
-    }
-  }
-
   @keyframes loader {
     80% {
       opacity: 1;
@@ -58,6 +48,23 @@ main {
       transform: rotate(360deg);
     }
   }
+
+
+@keyframes flash {
+  0% {
+    color: yellow;
+    text-shadow: 0 0 7px yellow;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: yellow;
+    text-shadow: 0 0 7px yellow;
+  }
+}
+  
 
 
 
