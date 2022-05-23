@@ -136,6 +136,7 @@
         color: inherit;
         display: block;
         margin-bottom: 20px;
+       
     }
 
     &__card__img {
@@ -183,11 +184,46 @@
     }
     
     &__btn {
-        color: black;
+        height: 2rem;
+        width: 2rem;
+        background-color: initial;
+        border: 0 solid transparent;
+         padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;
+        background-color: #000;     
         
-        
-    }
+    &__btn::before {
+        background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+    }    
+    } 
+
+   
+.card__like {
+    position: relative;
+    background-color: #f6f6f6;
+    background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
 }
+
+.card__like2 {
+    position: absolute;
+    right: 16px;
+}
+ 
+ 
+    
+}
+
+
+
+
+
+
+
+
 
  
 

@@ -136,7 +136,6 @@
         &__Icon {
             height: 25.6px;
             width: 25.6px;
-            background-color: white;
             display:flex;
             align-items:center;
             justify-content:center;
@@ -144,12 +143,14 @@
             transform: rotate(-180deg);
             transition-duration: 0.5s;
             color: #99e2d0;
-            background-color: white;
             padding: 5px;
             border-radius: 20px;
             transition: transform 500ms ease-in-out;
             animation: rotate .6s;
-            
+        }
+
+        &__Icon i {
+            color:#99e2d0;
         }
 
            &__validation {
@@ -162,6 +163,7 @@
            &__icon {
             transform: rotate(180deg);
             transition: transform 500ms;
+
            }
  }
 

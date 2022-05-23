@@ -255,7 +255,29 @@ main {
   list-style-type: none;
 }
 .card__footer__btn {
-  color: black;
+  height: 2rem;
+  width: 2rem;
+  background-color: initial;
+  border: 0 solid transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  background-color: #000;
+}
+.card__footer__btn__btn::before {
+  background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+}
+.card__footer .card__like {
+  position: relative;
+  background-color: #f6f6f6;
+  background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+}
+.card__footer .card__like2 {
+  position: absolute;
+  right: 16px;
 }
 
 .heroImg {
@@ -380,7 +402,6 @@ main {
 .menuItem__accept__Icon {
   height: 25.6px;
   width: 25.6px;
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -388,11 +409,13 @@ main {
   transform: rotate(-180deg);
   transition-duration: 0.5s;
   color: #99e2d0;
-  background-color: white;
   padding: 5px;
   border-radius: 20px;
   transition: transform 500ms ease-in-out;
   animation: rotate 0.6s;
+}
+.menuItem__accept__Icon i {
+  color: #99e2d0;
 }
 .menuItem__accept__validation {
   color: green;
