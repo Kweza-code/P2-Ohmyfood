@@ -52,16 +52,16 @@ main {
 
 @keyframes flash {
   0% {
-    color: yellow;
-    text-shadow: 0 0 7px yellow;
+    color: violet;
+    text-shadow: 0 0 7px  violet;
   }
   90% {
     color: #484848;
     text-shadow: none;
   }
   100% {
-    color: yellow;
-    text-shadow: 0 0 7px yellow;
+    color: violet;
+    text-shadow: 0 0 7px violet;
   }
 }
   
