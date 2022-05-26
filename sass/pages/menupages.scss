@@ -153,18 +153,19 @@
             color:#99e2d0;
         }
 
-           &__validation {
-            color: green;
-            background-color: white;
-            padding: 5px;
-            border-radius: 20px;
-           }
 
            &__icon {
             transform: rotate(180deg);
             transition: transform 500ms;
 
            }
+
+        i {
+            color: #99e2d0;
+            background-color: white;
+            padding: 5px;
+            border-radius: 20px;
+        }   
  }
 
 
@@ -180,44 +181,12 @@
 
 }
 
-.menuAnimation {
-    animation-delay: .1s;
-    
-}
+@for $i from 1 through 9 {
+	.menuAnimation-#{$i} {
+		animation-delay: 100ms * $i;
+	}
 
-.menuAnimation-1 {
-    animation-delay: .2s;
-  
 }
-
-.menuAnimation-2 {
-    animation-delay: .3s;
-}
-
-.menuAnimation-3 {
-    animation-delay: .4s;
-}
-
-.menuAnimation-4 {
-    animation-delay: .5s;
-}
-
-.menuAnimation-5 {
-    animation-delay: .6s;
-}
-
-.menuAnimation-6 {
-    animation-delay: .8s;
-}
-
-.menuAnimation-7 {
-    animation-delay: .9s;
-}
-
-.menuAnimation-8 {
-    animation-delay: 1s;
-}
-
 
 
 

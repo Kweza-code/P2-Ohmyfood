@@ -170,8 +170,21 @@
         color: inherit;
         display: block;
         margin-bottom: 20px;
-       
+        width: 100%;
+        height: 100%;
+        
+    &:hover + .card__like2 {
+         transform: scale(1);
+            
+        }
+
+        
+      
     }
+
+ 
+    
+  
 
     &__card__img {
         height: 200px !important;
@@ -180,6 +193,8 @@
         border-radius: 16px 16px 0 0;
         box-shadow: none;
         object-fit: cover;
+
+      
     }
     
 
@@ -200,8 +215,13 @@
     display: flex;
     align-items: center;
     color: black;
-    position: relative;
     justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    
+   
+ 
 
     &__content {
         flex: 1;
@@ -227,44 +247,52 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        position: relative;
-        background-color: #000;     
+        background-color: #000;    
         
     &__btn::before {
         background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
-    }    
+    } 
+ 
     } 
 
    
+}
+
 .card__like {
-    position: relative;
-    background-color: #f6f6f6;
-    background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+    position: absolute;
+    right: 62px;
+    color: red;  
+  
 }
 
 .card__like2 {
     position: absolute;
-    right: 16px;
+    right: 62px;
+    color: red;
+    transition: transform 2s;
+    transform: scale(0);
+   
+
+  
 }
+
+
+
+
+
+
+
+
  
- 
+
+
+
+
+
+
+
+
+&:hover + .card__like2 {
+    transform: scale(1);
     
 }
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
