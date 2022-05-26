@@ -14,7 +14,22 @@
     animation: loader 2s;
     animation-fill-mode: both;
     z-index: 10000;
+    
+    &__spin {
+        border: 16px solid  grey; 
+        border-top: 16px solid violet; 
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 2s linear infinite;
+        z-index: 10000;
+        position: absolute;
+        margin-top: 80px;
+    }
 }
+
+
+
 
 .lettre {
     color: #484848;
@@ -55,7 +70,8 @@
 .lettre:nth-child(8) {
     animation-delay: 0.8s;
 }
-   
+
+ 
 
     
 
@@ -291,8 +307,3 @@
 
 
 
-
-&:hover + .card__like2 {
-    transform: scale(1);
-    
-}
