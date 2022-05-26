@@ -322,8 +322,14 @@ main {
 .card__like {
   position: absolute;
   right: 62px;
-  color: red;
   bottom: 27px;
+  background-color: #f3ec78;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .card__like-1 {
@@ -333,6 +339,13 @@ main {
   transition: transform 2s;
   transform: scale(0);
   bottom: 27px;
+  background-color: #f3ec78;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .heroImg {
